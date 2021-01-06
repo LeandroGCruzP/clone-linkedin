@@ -1,6 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
+  &:nth-child(2) {
+    position: sticky;
+    top: 56px;
+  }
+
   > div {
     padding: 12px;
 
