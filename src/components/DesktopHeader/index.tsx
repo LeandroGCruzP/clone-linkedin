@@ -24,7 +24,7 @@ const DesktopHeader: React.FC = () => {
           <nav>
             <button className="active">
               <HomeIcon />
-              <span>Inicio</span>
+              <span>Início</span>
             </button>
             <button>
               <NotificationsIcon />

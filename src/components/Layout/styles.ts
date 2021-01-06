@@ -27,7 +27,7 @@ export const Container = styled.div`
     display: none;
   }
 
-  @media (min-width: 1080px) {
+  @media (min-width: 1180px) {
     .left-column,
     .right-column,
     .ad-banner {

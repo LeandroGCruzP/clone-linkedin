@@ -10,7 +10,7 @@ import RightColumn from "../RightColumn";
 import { Container } from "./styles";
 
 /**
- * Minuto 31
+ * Minuto 48
  * Problema con el AdBanner
  */
 
@@ -19,7 +19,7 @@ const Layout: React.FC = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setIsLoading(false);
+      // setIsLoading(false);
     }, 1000);
   }, []);
 
@@ -34,8 +34,8 @@ const Layout: React.FC = () => {
 
       <main>
         <LeftColumn isLoading={isLoading} />
-        <MiddleColumn />
-        <RightColumn />
+        <MiddleColumn isLoading={isLoading} />
+        <RightColumn isLoading={isLoading} />
       </main>
     </Container>
   );
