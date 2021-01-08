@@ -12,6 +12,7 @@ import { Container } from "./styles";
 /**
  * Minuto 48
  * Problema con el AdBanner
+ * Problema con LoadingFeedPost
  */
 
 const Layout: React.FC = () => {
