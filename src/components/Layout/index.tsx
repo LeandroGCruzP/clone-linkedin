@@ -10,7 +10,7 @@ import RightColumn from "../RightColumn";
 import { Container } from "./styles";
 
 /**
- * Minuto 48
+ * Minuto 55
  * Problema con el AdBanner
  * Problema con LoadingFeedPost
  */
