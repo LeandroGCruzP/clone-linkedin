@@ -24,9 +24,9 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 15px:
+        padding-left: 15px;
         flex: 1;
-      
+
         .row-skeleton {
           height: 12px;
 

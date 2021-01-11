@@ -9,18 +9,12 @@ import RightColumn from "../RightColumn";
 
 import { Container } from "./styles";
 
-/**
- * Minuto 55
- * Problema con el AdBanner
- * Problema con LoadingFeedPost
- */
-
 const Layout: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      // setIsLoading(false);
+      setIsLoading(false);
     }, 1000);
   }, []);
 
@@ -29,9 +23,7 @@ const Layout: React.FC = () => {
       <MobileHeader />
       <DesktopHeader />
 
-      <span>
-        <AdBanner />
-      </span>
+      <span>{!isLoading && <AdBanner />}</span>
 
       <main>
         <LeftColumn isLoading={isLoading} />
