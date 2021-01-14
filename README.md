@@ -1,10 +1,10 @@
-# 🗺️ Function Current Location 🗺️
+# 🗺️ Clone Linkedin with Shimmer Effect 🗺️
 
 ## 🏁 Objetivo 🏁
 
-### El objetivo principal es generar la interfaz de linkedin para aprender y practicar la implementación de shimmer effect al momento de cargar los datos de la página.
+### El objetivo principal es generar la interfaz de linkedin para aprender y practicar la implementación de shimmer effect al momento de cargar los datos de la página. Si quieres ver el resultado haz click en el siguiente link: https://clone-linkedin-shimmer.netlify.app/
 
-## 👷 Para la cración de la Localización se utilizó 👷
+## 👷 Para la cración de Clone Linkedin se utilizó 👷
 
 ### 🔧 JavaScript
 
